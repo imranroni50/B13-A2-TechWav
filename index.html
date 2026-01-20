@@ -9,25 +9,26 @@
 </head>
 <body>
     <header>
-        <nav class="flex justify-evenly p-7 bg-[url(./assets/hero-bg.png)]">
-            <div>
+        <nav class="sm:lg:flex justify-evenly p-7 bg-[#1A0B2E]">
+            <div class=" hover:rotate-120">
                 <img src="assets/TechWave.png" alt="">
             </div>
-            <div class="flex gap-3.5 text-[#FFFFFF] p-3.5">
+            <div class=" md:  lg:flex gap-3.5 text-[#FFFFFF] p-3.5">
                 <p>About</p>
                 <p>Episodes</p>
                 <p>Host</p>
             </div>
-            <button class="h-14 w-[135px] bg-linear-65 from-purple-500 to-pink-500 rounded-full text-[#FFFFFF]">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            <button class=" sm:object-none lg:h-14 w-[135px] bg-linear-65 from-purple-500 to-pink-500 rounded-full text-[#FFFFFF]">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
         </nav>
     </header>
-    <main class="bg-[url(./assets/hero-bg.png)] bg-center h-[800px]  pt-0">
-       <div class=" pl-[950px] pb-0 pt-[110px] ">
+
+    <main class=" lg:bg-[url(./assets/hero-bg.png)] bg-center h-[800px]  ">
+       <div class="sm: pl-60 lg:pl-[950px] pb-0 pt-[110px] ">
          <button class="text-white bg-green-400 w-10  rounded-full">new</button>
        </div>
        <div class=" bg-[url(./assets/hero-circle.png)] bg-no-repeat bg-center py-44 relative "></div>
        
-        <img class=" absolute top-[350px] right-[850px]" src="./assets/microphone.png" alt="">
+        <img class="sm:absolute pt-[-80px] pl-40 lg:absolute top-[340px] right-[850px] hover:rotate-120 " src="./assets/microphone.png" alt="">
     
           <div class="">
                <div class="px-[750px] text-[60px] font-extrabold text-[#FFFFFF]">
@@ -36,7 +37,7 @@
         <div>
             <p class="pl-[660px] text-[#FFFFFF]">Your daily dose of tech insights, productivity hacks, and personal growth</p>
         </div>
-        <div class="flex pl-180 pt-3.5 gap-2">
+        <div class="sm: lg:flex pl-180 pt-3.5 gap-2">
             <button class="flex bg-linear-65 from-purple-500 to-pink-500 rounded-full text-[#FFFFFF] w-[223px] h-11 border-2 ">
                 <img class="p-3" src="assets/spotify.png" alt="">
                 <p class=" p-1.5">Listen on Spotify</p>
@@ -50,7 +51,7 @@
         </div>
        </div>
     </main>
-    <section class="bg-[#1A0B2E]  h-[720px]">
+    <section class="sm: bg-[#1A0B2E]  lg:bg-[#1A0B2E]  h-[720px]">
         <div class="text-[#FFFFFF] text-center">
             <h1 class="font-bold text-[50px]">About the Podcast</h1>
             <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.</p>
@@ -60,7 +61,7 @@
             <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
         </div>
         
-        <div class="p-52 grid grid-cols-4 pl-[400px] ">
+        <div class="md:grid grid-cols-2  lg:p-52 grid grid-cols-4  ">
             <div>
                 <h1  class="text-[#00FF88] font-black text-[48px]">150K+</h1>
                 <p class="text-[#FFFFFF]">Monthly Listeners</p>
@@ -80,16 +81,16 @@
         </div>
     </section>
 
-    <section class="bg-[#230E3D] h-[1121px] ">
+    <section class="sm: lg:bg-[#230E3D] h-[1121px] ">
         
-           <div class="px-160 pt-10 font-bold text-[48px] text-[#FFFFFF] ">
+           <div class="md: max-w-full lg:px-160 pt-10 font-bold text-[48px] text-[#FFFFFF] ">
              <h1>Why Choose TechWave</h1>
            </div>        
-          <div class="ml-[300px]  pt-23  w-[1200px] h-[783px]">
+          <div class=" sm:max-w-full h-full lg:ml-[300px]  pt-23  w-[1200px] h-[783px]">
             
-       <div class=" grid grid-flow-col grid-rows-3 gap-2 text-[#FFFFFF]">
+       <div class=" sm: w-full lg:grid grid-flow-col grid-rows-3 gap-2 text-[#FFFFFF]">
 
-         <div class="w-[380px] h-[480px] rounded-[30px] row-span-2 pl-5 pt-25 bg-[#351165]">
+         <div class="md: w-full lg:w-[380px] h-[480px] rounded-[30px] row-span-2 pl-5 pt-25 bg-[#351165]">
             <img src="assets/headphone.png" alt="">
             <h3 class="font-bold text-[24px] text-[#FFFFFF]">Premium Audio Quality</h3>
             <p class="text-[16px]">Experience crystal-clear sound with professional-grade recording equipment and <br> expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
@@ -105,7 +106,7 @@
         
        
 
-        <div class="w-[790px] h-[225px]  rounded-[30px] col-span-2 pl-10 pt-10 bg-[#351165]">
+        <div class=" lg:w-[790px] h-[225px]  rounded-[30px] col-span-2 pl-10 pt-10 bg-[#351165]">
              <img src="assets/device.png" alt="">
             <h3 class="font-bold text-[24px] text-[#FFFFFF]">Mobile Friendly</h3>
             <p>Listen on the go with seamless mobile experience and offline downloads.</p>
@@ -126,11 +127,12 @@
         </div>
           </div>
     </section>
-    <section class="bg-[#1A0B2E] h-[1276px] text-[#FFFFFF]">
-        <div class="px-150 font-bold text-[48px] pt-3 text-[#FFFFFF] ">
+    
+    <section class="sm:   lg:bg-[#1A0B2E] h-[1276px] text-[#FFFFFF]">
+        <div class="px-150 pt-10 font-bold text-[48px]  text-[#FFFFFF] ">
             <h1>Featured Episodes</h1>
         </div>
-        <div class="grid grid-cols-3 px-60 pt-25">
+        <div class="sm:items-center lg:grid grid-cols-3 px-60 pt-6">
 
             <div class="w-[380px] h-[440px] bg-[#351165] rounded-xl ">
                <div class="truncate rounded-xl">
@@ -154,6 +156,50 @@
                 <p class="px-1">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
             </div>
         </div>
+        <div class="">
+            <div><h1 class="text-center pt-10 font-bold text-[48px] text-[#FFFFFF] ">Meet the Host</h1></div>
+           
+           <div class=" justify-center pt-30 pl-[300px]">
+             <div class=" lg:flex justify-center gap-8 pt-5 w-[1200px] h-[280px] bg-[#351165] rounded-xl">
+                <div> <img src="./assets/host.png" alt=""></div>
+               
+               <div>
+                 <h3 class=" font-bold text-[32px] text-[#FFFFFF]">Alex Kumar</h3>
+                <p class="max-w-[896px] h-18">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                 <div class="flex gap-3 p-3  ">
+                   <div class="w-10 h-10 rounded-full border-2"> <img class="p-2.5" src="assets/linkedin.png" alt=""></div>
+                   <div class="w-10 h-10 rounded-full border-2"> <img class="p-2.5" src="assets/x.png" alt=""></div>
+                    <div class="w-10 h-10 rounded-full border-2"><img class="p-2.5" src="assets/instagram.png" alt=""></div>
+                   <div class="w-10 h-10 rounded-full border-2"> <img class="p-2.5" src="assets/youtube.png" alt=""></div>
+                </div>
+               </div>
+            </div>
+           </div>
+        </div>
     </section>
+    <footer class=" bg-[url(./assets/footer-bg.png)]  h-[412px] text-[#FAFAFA]">
+        <div class="">
+            <div class="pt-40 px-170"><img src="assets/TechWave.png" alt=""></div>
+        </div>
+       <div class="flex px-150 py-15 gap-4">
+         <div class="flex gap-4">
+            <img src="assets/spotify.png" alt="">
+            <p>Spotify</p>
+        </div>
+        <div class="flex gap-4">
+            <img src="assets/apple-podcast.png" alt="">
+            <p>Apple Podcasts</p>
+        </div>
+        <div class="flex gap-4">
+            <img src="assets/youtube-podcast.png" alt="">
+            <p>YouTube</p>
+        </div>
+        <div class="flex gap-4">
+            <img src="assets/twitter.png" alt="">
+            <p>Twitter</p>
+        </div>
+       </div>
+        <p class="px-160">© 2026 TechWave Podcast. All rights reserved.</p>
+    </footer>
 </body>
 </html>
